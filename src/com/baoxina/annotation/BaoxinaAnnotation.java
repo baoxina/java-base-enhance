@@ -84,4 +84,5 @@ public @interface BaoxinaAnnotation {
 	Class<?> clz() default String.class;
 	Class<?>[] clzs() default String.class;
 	MetaAnnotation annotation() default @MetaAnnotation("haha");
+	EnumTest.TrrificLamp lamp();
 }
